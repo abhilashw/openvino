@@ -483,6 +483,7 @@ OperatorsBridge::OperatorsBridge() {
     REGISTER_OPERATOR("ReduceMean", 1, reduce_mean);
     REGISTER_OPERATOR("ReduceMin", 1, reduce_min);
     REGISTER_OPERATOR("ReduceProd", 1, reduce_prod);
+    REGISTER_OPERATOR("ReduceProd", 18, reduce_prod);
     REGISTER_OPERATOR("ReduceSum", 1, reduce_sum);
     REGISTER_OPERATOR("ReduceSum", 13, reduce_sum);
     REGISTER_OPERATOR("ReduceSumSquare", 1, reduce_sum_square);

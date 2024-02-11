@@ -10,6 +10,22 @@ namespace ov {
 namespace frontend {
 namespace onnx {
 namespace op {
+namespace set_18 {
+/// \brief      Compute the product of the input tensor's elements along the
+///             provided axes.
+///
+/// \par Overview
+///     The output tensor has the same rank as the input if Node attribute keepdims
+///     equals 1. If keepdims equals 0, then the output tensor have the reduced
+///     dimension pruned.
+///
+/// \param[in]  node  The ONNX node representing operation.
+///
+/// \return     The OV node equivalent of the ONNX operation.
+///
+ov::OutputVector reduce_prod(const ov::frontend::onnx::Node& node);
+}  // namespace set_18
+
 namespace set_13 {
 /// \brief      Compute the sum of the input tensor's elements along the provided
 ///             axes.
